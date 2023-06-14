@@ -9,8 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.util.Optional;
-
 @Service
 public class FieldValidatorServiceImpl implements FieldValidatorService {
     private static final int MIN_USERNAME_LENGTH = 8;
